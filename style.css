@@ -1,0 +1,38 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    background-color: black;
+    user-select: false;
+  }
+  .mario {
+    position: absolute;
+    width: 100px;
+    height: 115px;
+    background-image: url('img/mario.png');
+    background-size: cover;
+    z-index: 3;
+  }
+  .luigi {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    background-image: url('img/luigi.png');
+    background-size: cover;
+    z-index: 0;
+  }
+  .yoshi {
+    position: absolute;
+    width: 100px;
+    height: 140px;
+    background-image: url('img/yoshi.png');
+    background-size: cover;
+    z-index: 2;
+  }
+  .wario {
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    background-image: url('img/wario.png');
+    background-size: cover;
+    z-index: 1;
+  }

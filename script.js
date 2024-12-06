@@ -45,11 +45,14 @@ movePelotas();
 //detecta el click a luigi
 document.querySelector('.luigi').addEventListener('click', function() {
     alert("Luigi has been found!");
+    location.reload()
+    
 });
 
 
 window.addEventListener("DOMContentLoaded", event => {
     const audio = document.querySelector("audio");
-    audio.volume = 0.2;
+    audio.volume = 0.1;
+    audio.loop = true;
     audio.play();
   });

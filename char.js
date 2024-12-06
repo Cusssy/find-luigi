@@ -1,7 +1,7 @@
 export var pelotas = [];
 export var maxWidth = window.innerWidth - 100;
 export var maxHeight = window.innerHeight - 100;
-export var numPelotas = 15; // Número de pelotas
+export var numPelotas = maxWidth / 32; // Número de pelotas
 export var speed = 5; // Velocidad constante en píxeles por cuadro
 
 // Función para crear una nueva pelota
